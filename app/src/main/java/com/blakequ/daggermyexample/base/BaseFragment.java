@@ -8,10 +8,10 @@ import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 
 import com.blakequ.daggermyexample.App;
-import com.blakequ.daggermyexample.presenter.loader.PresenterFactory;
-import com.blakequ.daggermyexample.presenter.loader.PresenterLoader;
 import com.blakequ.daggermyexample.injection.component.AppComponent;
 import com.blakequ.daggermyexample.presenter.BasePresenter;
+import com.blakequ.daggermyexample.presenter.loader.PresenterFactory;
+import com.blakequ.daggermyexample.presenter.loader.PresenterLoader;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

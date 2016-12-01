@@ -2,7 +2,7 @@ package com.blakequ.daggermyexample.view.main1;
 
 import com.blakequ.daggermyexample.bean.BeanData;
 import com.blakequ.daggermyexample.presenter.impl.BasePresenterImpl;
-import com.blakequ.daggermyexample.base.BaseView;
+import com.blakequ.daggermyexample.presenter.BaseView;
 
 import java.util.List;
 

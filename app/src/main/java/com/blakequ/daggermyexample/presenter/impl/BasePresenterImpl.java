@@ -4,12 +4,13 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import com.blakequ.daggermyexample.presenter.BasePresenter;
+import com.blakequ.daggermyexample.presenter.BaseView;
 
 /**
  * Abstract presenter implementation that contains base implementation for other presenters.
  * Subclasses must call super for all {@link BasePresenter} method overriding.
  */
-public abstract class BasePresenterImpl<V> implements BasePresenter<V> {
+public abstract class BasePresenterImpl<V extends BaseView> implements BasePresenter<V> {
     /**
      * The view
      */
